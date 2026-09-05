@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_white_card"
+    android:layout_marginBottom="16dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/text_notif_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Request"
+        android:textColor="@color/text_primary_black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:id="@+id/text_notif_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luke Shaw requested to join Pickup game #1\n@ BMO Soccer center, 8pm, Mon 12 Aug 2026"
+        android:textColor="@color/text_secondary_dark"
+        android:textSize="14sp"
+        android:lineSpacingExtra="2dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/text_notif_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Request"
+        android:textColor="@color/green_text"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="end"
+        android:padding="4dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+</LinearLayout>

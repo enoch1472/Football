@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Soccer App</string>
+    <string name="available_games">Available games</string>
+    <string name="send_request">Send Request to Host</string>
+    <string name="request_to_join">Request to join game</string>
+    <string name="players_label">Players</string>
+    <string name="notifications">Notifications</string>
+    <string name="host_a_game">Host a game</string>
+    <string name="profile">Profile</string>
+    <string name="log_out">Log out</string>
+    <string name="finish">Finish</string>
+    <string name="game_name">Game Name</string>
+    <string name="date_of_game">Date of game</string>
+    <string name="time_of_game">Time of game</string>
+    <string name="game_location">Game Location</string>
+    <string name="game_type">Game type</string>
+    <string name="view_request">View Request</string>
+    <string name="firestore_toast">Firestore not connected</string>
+    <string name="back">Back</string>
+    <string name="new_request">New Request</string>
+    <string name="request_accepted">Request Accepted</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_host_game">Host a game</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_log_out">Log out</string>
+</resources>

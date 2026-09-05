@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_player_row"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_marginBottom="8dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_user_avatar"
+        android:contentDescription="Player icon"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/text_player_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Player Name"
+        android:textColor="@color/text_white"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/btn_add_player"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_add_white"
+        android:background="@android:color/transparent"
+        android:contentDescription="Add player"
+        android:scaleType="centerInside" />
+
+</LinearLayout>
